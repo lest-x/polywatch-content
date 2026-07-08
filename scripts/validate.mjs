@@ -59,8 +59,11 @@ for (const file of files) {
 
   if (fm.slug) {
     const expected = basename(file, ".md").replace(/^\d{4}-\d{2}-\d{2}-/, "");
-    if (fm.slug !== expected)
-      err(file, `slug "${fm.slug}" ≠ filename slug "${expected}"`);
+    // Dated series (Daily Radar) put the date in the slug for URL
+    // uniqueness: 2026-07-08-daily-radar.md → slug daily-radar-2026-07-08.
+    const datedSeries = fm.date ? `${expected}-${fm.date}` : null;
+    if (fm.slug !== expected && fm.slug !== datedSeries)
+      err(file, `slug "${fm.slug}" ≠ filename slug "${expected}" (or "${datedSeries}")`);
   }
 
   // --- body hard rules ------------------------------------------------------
