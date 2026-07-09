@@ -54,14 +54,16 @@ for (const file of files) {
   for (const key of REQUIRED)
     if (!fm[key]) err(file, `frontmatter missing "${key}"`);
 
-  if (fm.date && !/^\d{4}-\d{2}-\d{2}$/.test(fm.date))
-    err(file, `date "${fm.date}" is not YYYY-MM-DD`);
+  // Date-only or with a UTC time (posts published by the bot carry the
+  // drafting time so the site can show it).
+  if (fm.date && !/^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?Z)?$/.test(fm.date))
+    err(file, `date "${fm.date}" is not YYYY-MM-DD[THH:MM[:SS]Z]`);
 
   if (fm.slug) {
     const expected = basename(file, ".md").replace(/^\d{4}-\d{2}-\d{2}-/, "");
     // Dated series (Daily Radar) put the date in the slug for URL
     // uniqueness: 2026-07-08-daily-radar.md → slug daily-radar-2026-07-08.
-    const datedSeries = fm.date ? `${expected}-${fm.date}` : null;
+    const datedSeries = fm.date ? `${expected}-${fm.date.slice(0, 10)}` : null;
     if (fm.slug !== expected && fm.slug !== datedSeries)
       err(file, `slug "${fm.slug}" ≠ filename slug "${expected}" (or "${datedSeries}")`);
   }
