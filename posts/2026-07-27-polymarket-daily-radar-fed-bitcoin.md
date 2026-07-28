@@ -2,7 +2,7 @@
 title: "Polymarket Daily Radar — Jul 27: Fed Rate Decision Countdown + Bitcoin Moves"
 description: "Fed July meeting markets resolve in 48 hours. Latest odds on no change vs 25 bps hike, plus today’s biggest Bitcoin price target and whale activity on Polymarket."
 date: 2026-07-27T15:20:00Z
-slug: daily-radar-2026-07-27-fed-bitcoin
+slug: polymarket-daily-radar-fed-bitcoin
 tags: [daily-radar, polymarket, bitcoin, fed]
 author: polywatch
 markets: ["will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting", "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting", "will-the-fed-increase-interest-rates-by-50-bps-after-the-july-2026-meeting", "will-bitcoin-reach-80k-in-july-2026", "bitcoin-above-60k-on-july-27-2026"]
