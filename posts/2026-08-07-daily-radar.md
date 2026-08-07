@@ -4,6 +4,7 @@ description: "Fed rate cut odds saw a significant price jump on Polymarket today
 date: 2026-08-07T13:00:01Z
 slug: daily-radar-2026-08-07
 tags: [daily-radar]
+author: polywatch
 markets: ["will-ethereum-dip-to-1250-by-december-31-2026-from-june-8", "ethereum-above-1900-on-august-7-2026", "will-bitcoin-dip-to-62k-on-august-6", "us-x-iran-effective-ceasfire-by-august-14-20260715194822046", "will-the-fed-decrease-interest-rates-by-25-bps-after-the-september-2026-meeting-586", "strait-of-hormuz-traffic-returns-to-normal-by-august-15-20260727171036148", "bitcoin-up-or-down-on-august-7-2026", "will-5-fed-rate-cuts-happen-in-2026", "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "lol-we-tt-2026-08-07", "lol-fox1-bro2-2026-08-07-game1"]
 ---
 
