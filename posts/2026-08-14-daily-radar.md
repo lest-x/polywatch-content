@@ -6,7 +6,6 @@ slug: daily-radar-2026-08-14
 tags: [daily-radar]
 author: polywatch
 markets: ["will-kamala-harris-win-the-2028-us-presidential-election", "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "will-the-total-domestic-gross-for-spider-man-brand-new-day-be-between-800m-and-900m-by-august-31-20260717232947959", "xrp-above-1-on-august-14-2026", "cs2-fut-mouz-2026-08-14", "will-satoshi-move-any-bitcoin-in-2026", "israel-x-iran-ceasefire-continues-through-august-15-20260716224448969-246-815-987-693", "will-bitcoin-reach-75k-in-august-2026", "bitcoin-above-70k-on-august-15-2026", "will-spider-man-brand-new-day-be-the-top-grossing-movie-of-2026", "us-iran-60-day-negotiation-period-extended-20260624044855448", "bitcoin-above-74k-on-august-14-2026", "strait-of-hormuz-traffic-returns-to-normal-by-august-15-20260727171036148", "us-announces-end-of-iranian-blockade-by-august-15-2026-20260713152715083-347-987-697-628-574-676", "israel-closes-its-airspace-by-august-15"]
-author: polywatch
 ---
 
 > **TL;DR**
